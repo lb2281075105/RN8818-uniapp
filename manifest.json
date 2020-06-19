@@ -11,8 +11,8 @@
         "nvueCompiler" : "uni-app",
         "compilerVersion" : 3,
         "splashscreen" : {
-            "alwaysShowBeforeRender" : true,
-            "waiting" : true,
+            "alwaysShowBeforeRender" : false,
+            "waiting" : false,
             "autoclose" : true,
             "delay" : 0
         },
@@ -85,9 +85,9 @@
             },
             "splashscreen" : {
                 "android" : {
-                    "hdpi" : "images/icon/android_lanuch/480x762.png",
-                    "xhdpi" : "images/icon/android_lanuch/720x1242.png",
-                    "xxhdpi" : "images/icon/android_lanuch/1080x1882.png"
+                    "hdpi" : "static/images/icon/android_lanuch/480x762.png",
+                    "xhdpi" : "static/images/icon/android_lanuch/720x1242.png",
+                    "xxhdpi" : "static/images/icon/android_lanuch/1080x1882.png"
                 }
             }
         }

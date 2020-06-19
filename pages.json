@@ -1,16 +1,78 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+		    "path" : "pages/home/home",
+		    "style" : {
+				"navigationBarTitleText":""
+			}
+		},
+		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
-		}
-	],
+		},
+        {
+            "path" : "pages/community/community",
+            "style" : {}
+        },
+		{
+            "path" : "pages/publish/publish",
+            "style" : {
+				
+			}
+        },
+        {
+            "path" : "pages/life/life",
+            "style" : {}
+        },
+        {
+            "path" : "pages/mine/mine",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color": "#7A7E83",
+		"selectedColor": "#444444",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list":[
+			{
+				"pagePath":"pages/home/home",
+				"iconPath":"/static/images/tab/shouye@2x.png",
+				"selectedIconPath":"/static/tab/tab_icon_home_selected@2x.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/community/community",
+				"iconPath":"static/images/tab/tab_icon_zt_normal@2x.png",
+				"selectedIconPath":"static/images/tab/tab_icon_zt_selected@2x.png",
+				"text":"社区"
+			},
+			{
+				"pagePath":"pages/publish/publish",
+				"iconPath":"static/images/tab/tab_icon_pub_normal@2x.png",
+				"selectedIconPath":"static/images/tab/tab_icon_pub_selected@2x.png",
+				"text":"发布"
+			},
+			{
+				"pagePath":"pages/life/life",
+				"iconPath":"static/images/tab/tab_icon_life_normal@2x.png",
+				"selectedIconPath":"static/images/tab/tab_icon_life_selected@2x.png",
+				"text":"生活"
+			},
+			{
+				"pagePath":"pages/mine/mine",
+				"iconPath":"static/tab/wode@2x.png",
+				"selectedIconPath":"static/tab/tab_icon_me_selected@2x.png",
+				"text":"个人中心"
+			}
+		]
 	}
 }
