@@ -3,32 +3,32 @@
 		{
 		    "path" : "pages/home/home",
 		    "style" : {
-				"navigationBarTitleText":""
-			}
-		},
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText":"首页"
 			}
 		},
         {
             "path" : "pages/community/community",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText": "社区"
+			}
         },
 		{
             "path" : "pages/publish/publish",
             "style" : {
-				
+				"navigationBarTitleText":"发布"
 			}
         },
         {
             "path" : "pages/life/life",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText": "生活"
+			}
         },
         {
             "path" : "pages/mine/mine",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText": "个人中心"
+			}
         }
     ],
 	"globalStyle": {
@@ -45,8 +45,8 @@
 		"list":[
 			{
 				"pagePath":"pages/home/home",
-				"iconPath":"/static/images/tab/shouye@2x.png",
-				"selectedIconPath":"/static/tab/tab_icon_home_selected@2x.png",
+				"iconPath":"/static/images/tab/tab_icon_home_normal@2x.png",
+				"selectedIconPath":"/static/images/tab/tab_icon_home_selected@2x.png",
 				"text":"首页"
 			},
 			{
@@ -69,8 +69,8 @@
 			},
 			{
 				"pagePath":"pages/mine/mine",
-				"iconPath":"static/tab/wode@2x.png",
-				"selectedIconPath":"static/tab/tab_icon_me_selected@2x.png",
+				"iconPath":"static/images/tab/tab_icon_me_normal@2x.png",
+				"selectedIconPath":"static/images/tab/tab_icon_me_selected@2x.png",
 				"text":"个人中心"
 			}
 		]
